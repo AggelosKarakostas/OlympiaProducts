@@ -7,8 +7,7 @@ body {
 }
 
 .myNav {
-    /* background-color: rgb(192, 204, 146); */
-    background-color: rgb(163, 179, 133);
+    background-color: #94cad0;
     min-width: inherit;
 }
 
@@ -54,10 +53,6 @@ h3 .btn {
     max-width: 100%;
 }
 
-.card-deck {
-    margin: 2rem;
-}
-
-.card {
-    margin: 2rem
+#mymail {
+    color: unset;
 }
