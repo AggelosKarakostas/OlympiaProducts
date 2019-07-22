@@ -13,133 +13,46 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/myStyle.css">
+    <link rel="stylesheet" href="assets/cardsStyles.css">
 </head>
 
 <body>
-    <div class="container w-100 fixed-top">
-        <div class="row no-gutter">
-            <!-- Navigation -->
-            <div class="col-xs-0 col-md-2 bg-light "></div>
-            <nav class="navbar navbar-expand-md navbar-light bg-light text-dark static-top col-md-9 text-nowrap row mx-0 px-0">
-                <a class="navbar-brand" href="#">
-                    <img src="assets\images\logo.jpg" width="200" height="100" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list">
-              <span class="navbar-toggler-icon"></span>
-        </button>
-                <div class="collapse navbar-collapse col-md-8" id="navbar-list-5">
-                    <ul class="navbar-nav row">
-                        <li class="nav-item col-md-3">
-                            <a class="nav-link text-nowrap btn btn-sm btn-outline-secondary" href="index.html">Home </a>
-                        </li>
-                        <li class="nav-item active col-md-3">
-                            <a class="nav-link text-nowrap btn btn-sm btn-outline-secondary" href="#">Products<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item col-md-3">
-                            <a class="nav-link text-nowrap btn btn-sm btn-outline-secondary" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item col-md-3">
-                            <a class="nav-link text-nowrap btn btn-sm btn-outline-secondary" href="#">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="col-xs-0 col-md-1 bg-light"></div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top justify-content-between justify-content-md-around myNav" data-toggle="affix">
+        <div class="col-md-1 col-lg-2 col-0"></div>
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.jpg" alt="logo" id="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse justify-content-md-around" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-nowrap btn btn-outline-secondary" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap btn btn-outline-secondary" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap btn btn-outline-secondary" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap btn btn-outline-secondary" href="#">Q & A</a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
     <!-- Page Content -->
-    <div class="card-deck d-flex justify-content-around">
-        <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Product1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu lectus laoreet, convallis nibh vitae, elementum leo. Nam tincidunt interdum congue. Suspendisse ut lobortis mi. Sed eget placerat magna. Maecenas sit amet leo eu mi pretium
-                    tincidunt in at enim. </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">comes in various sizes and prices</small>
-            </div>
+    <div class=""></div>
+    <!-- Footer -->
+    <footer class="bg-white font-small ">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-2">© 2019 | <a id="mymail" href="mailto:papageorgiou_ste@hotmail.com">Stella Papageorgiou</a>
         </div>
-        <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Product1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu lectus laoreet, convallis nibh vitae, elementum leo. Nam tincidunt interdum congue. Suspendisse ut lobortis mi. Sed eget placerat magna. Maecenas sit amet leo eu mi pretium
-                    tincidunt in at enim. </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">comes in various sizes and prices</small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Product1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu lectus laoreet, convallis nibh vitae, elementum leo. Nam tincidunt interdum congue. Suspendisse ut lobortis mi. Sed eget placerat magna. Maecenas sit amet leo eu mi pretium
-                    tincidunt in at enim. </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">comes in various sizes and prices</small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Product1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu lectus laoreet, convallis nibh vitae, elementum leo. Nam tincidunt interdum congue. Suspendisse ut lobortis mi. Sed eget placerat magna. Maecenas sit amet leo eu mi pretium
-                    tincidunt in at enim. </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">comes in various sizes and prices</small>
-            </div>
-        </div>
-    </div>
-    <div class="card-deck d-flex justify-content-around">
-        <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Product1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu lectus laoreet, convallis nibh vitae, elementum leo. Nam tincidunt interdum congue. Suspendisse ut lobortis mi. Sed eget placerat magna. Maecenas sit amet leo eu mi pretium
-                    tincidunt in at enim. </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">comes in various sizes and prices</small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Product1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu lectus laoreet, convallis nibh vitae, elementum leo. Nam tincidunt interdum congue. Suspendisse ut lobortis mi. Sed eget placerat magna. Maecenas sit amet leo eu mi pretium
-                    tincidunt in at enim. </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">comes in various sizes and prices</small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Product1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu lectus laoreet, convallis nibh vitae, elementum leo. Nam tincidunt interdum congue. Suspendisse ut lobortis mi. Sed eget placerat magna. Maecenas sit amet leo eu mi pretium
-                    tincidunt in at enim. </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">comes in various sizes and prices</small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Product1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu lectus laoreet, convallis nibh vitae, elementum leo. Nam tincidunt interdum congue. Suspendisse ut lobortis mi. Sed eget placerat magna. Maecenas sit amet leo eu mi pretium
-                    tincidunt in at enim. </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">comes in various sizes and prices</small>
-            </div>
-        </div>
-    </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
