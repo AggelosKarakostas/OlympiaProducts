@@ -1,6 +1,7 @@
 body {
     min-height: 25rem;
     padding-top: 10rem;
+    padding-bottom: 3rem;
     width: 100%;
     min-width: 450px;
     font-family: -webkit-pictograph;
@@ -23,8 +24,8 @@ ul li .nav-link {
     margin-right: 1rem;
 }
 
-.btn-outline-secondary {
-    border-radius: 2px;
+.my-btn-outline {
+    border-radius: 1.5px;
     border-width: 3px;
 }
 
@@ -51,6 +52,11 @@ h3 .btn {
 
 .w-100 {
     max-width: 100%;
+}
+
+.mycard {
+    width: 85%;
+    max-width: 22rem;
 }
 
 #mymail {
