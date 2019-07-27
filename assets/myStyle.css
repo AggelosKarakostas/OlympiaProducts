@@ -68,6 +68,10 @@ h3 .btn {
     margin: 20px;
 }
 
+.card-block {
+    padding: 1rem
+}
+
 .panel-heading [data-toggle="collapse"]:after {
     font-family: 'Glyphicons Halflings';
     content: "e072";
