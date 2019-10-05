@@ -1,6 +1,6 @@
 body {
     min-height: 25rem;
-    padding-top: 8.5rem;
+    padding-top: 5.5rem;
     padding-bottom: 3rem;
     width: 100%;
     min-width: 450px;
@@ -8,14 +8,15 @@ body {
 }
 
 .myNav {
-    background-color: rgb(163, 179, 133);
+    background-color: #FFF;
     min-width: inherit;
+    border-bottom: #beb631 solid 0.5px;
 }
 
 #logo {
     max-width: 270px;
-    max-height: 115px;
-    margin-left: 2rem
+    max-height: 10vh;
+    margin-left: 2rem;
 }
 
 ul li .nav-link {
@@ -27,7 +28,12 @@ ul li .nav-link {
 .my-btn-outline {
     border-radius: 1.5px;
     border-width: 2px;
+    border-color: #beb631;
     padding: 1px 4px;
+}
+
+.my-btn-outline:hover {
+    background-color: #beb631;
 }
 
 .img-fluid {
@@ -73,4 +79,27 @@ h3 .btn {
 .btn-link {
     color: unset;
     font-weight: 550;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+    transform: translateX(-25%)
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+
+.front-carousel {
+    max-height: 33vh;
+}
+
+.carousel-item .img-fluid {
+    object-fit: contain;
 }
