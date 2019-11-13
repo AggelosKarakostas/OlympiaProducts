@@ -1,0 +1,25 @@
+  <a id='Projects'></a>
+        <section class="Projects ">
+            <div class="section-header ">
+                <div class="icon ">
+                    <img src="assets/images/icon_work.png " />
+                </div>
+                <div class="title ">
+                    Work
+                </div>
+            </div>
+            <div class="container ">
+                <p>
+                    I love learning from other people and seeing how they create their work. If you're this type of person as well, feel free to check out the code for theese sites on Github. If you learn something, that's great. If you can teach me something, even better!
+                    .. Thanks!
+                </p>
+                <ul>
+                    <li class="image-container " id="image1 ">
+                        <a href="https://github.com/princessLeiaa/ekmous "><img src="assets/images/work1.png " /></a>
+                    </li>
+                    <li class="image-container " id="image2 ">
+                        <a href="https://github.com/princessLeiaa/Personal-Info-Page "><img src="assets/images/work2.png " /></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
